@@ -82,7 +82,7 @@ export default function Project({
                 <div className="flex flex-col">
                     <div className="flex">
                         <Image
-                            src="/GitHub.png"
+                            src="/mascot.png"
                             width={20}
                             height={20}
                             alt=""
