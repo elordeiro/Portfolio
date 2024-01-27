@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --foreground-rgb: 255, 255, 255;
+        /* --background-start-rgb: 0, 0, 0;
+        --background-end-rgb: 255, 255, 255; */
+        --background-start-hex: #2e2d2d;
+        --background-end-hex: #000000;
+    }
+}
+
+body {
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(
+            to bottom,
+            transparent,
+            var(--background-end-hex)
+        )
+        var(--background-start-hex);
+    background: #23272d;
+}
+
+@layer components {
+    .button {
+        @apply px-2 py-1 bg-amber-400 ring-1       ring-slate-200 ring-offset-0        rounded text-black
+                   hover:bg-amber-500        hover:ring-slate-400 cursor-pointer 
+                  active:bg-amber-600       active:ring-slate-700 active:transition-all active:duration-100 active:text-[0.99rem]
+                selection:bg-none;
+    }
+
+    .navbar {
+        @apply flex flex-col bg-[#1D2127] h-fit w-full text-center font-light shadow shadow-slate-900 fixed;
+    }
+}
+
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+}
