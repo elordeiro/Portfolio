@@ -37,11 +37,11 @@ export default function Home() {
             </span>
             <span className="py-10 font-mono italic text-xs md:text-lg text-center">
                 {"This is my portfolio."}
-                {width < 911 && <br />}
+                {(width ?? 0) < 911 && <br />}
                 {"I'm a software developer,"}
-                {width < 911 && <br />}
+                {(width ?? 0) < 911 && <br />}
                 {" and I'm passionate about technology."}
-                {width > 910 && (
+                {(width ?? 0) > 910 && (
                     <>
                         <hr className="w-full" />
                         <hr className="w-full" />
