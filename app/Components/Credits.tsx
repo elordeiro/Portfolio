@@ -30,7 +30,7 @@ export default function Credits() {
             <a
                 href="https://www.flaticon.com/"
                 title="Flaticon"
-                className="underline text-amber-400"
+                className="underline text-amber-200"
             >
                 Flaticon
             </a>
@@ -52,7 +52,7 @@ export default function Credits() {
                             <a
                                 href={`https://www.flaticon.com/authors/${author}`}
                                 title={author}
-                                className="underline text-amber-400"
+                                className="underline text-amber-200"
                             >
                                 {author}
                             </a>

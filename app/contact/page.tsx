@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function page() {
     return (
         <main className="flex min-h-screen flex-col items-center font-light">
-            <span className="mt-[60px] text-4xl md:text-5xl lg:text-7xl font-thin text-amber-400">
+            <span className="mt-[60px] text-4xl md:text-5xl lg:text-7xl font-thin text-amber-400 title-text-shadow">
                 {"Contact Me"}
             </span>
             <div className="grid w-[90dvw] sm:w-[60dvw] mt-20 text-lg gap-10">
@@ -84,6 +84,7 @@ export default function page() {
                         >
                             LeetCode
                         </a>
+                        &nbsp;(150+ problems solved)
                     </p>
                     <p className="m-2 flex">
                         <Image

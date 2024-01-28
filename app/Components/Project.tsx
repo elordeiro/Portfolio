@@ -11,102 +11,105 @@ export default function Project({
     github,
 }: ProjectProps) {
     return (
-        <div className="rounded-xl border-2 border-amber-500 grid grid-cols-2 p-5 gap-5 divide-dotted divide-y-2 shadow-md shadow-slate-500 bg-[#1e293b90]">
-            <div className="col-span-2 flex">
-                <Image
-                    src={logo}
-                    width={50}
-                    height={50}
-                    alt=""
-                    className="object-contain"
-                />
-                <h1 className="text-amber-400 self-end pl-5 text-lg md:text-4xl text-center w-full pr-[55px]">
-                    {title}
-                </h1>
-            </div>
-            <div className="flex justify-center col-span-2 pt-5 items-center">
-                <Image
-                    src="/lcurly.png"
-                    width={50}
-                    height={50}
-                    alt=""
-                    className="object-contain"
-                />
-                <a href={projLink} className="button h-fit">
-                    View Project
-                </a>
-                <Image
-                    src="/rcurly.png"
-                    width={50}
-                    height={50}
-                    alt=""
-                    className="object-contain"
-                />
-            </div>
-            <span className="col-span-2 pt-5">
-                <div className="flex">
+        // bg-[#1e293b90]
+        <div className="project-bg">
+            <div className="rounded-xl border-amber-500 grid grid-cols-2 p-5 gap-5 shadow-inner shadow-amber-500  project-overlay">
+                <div className="col-span-2 flex">
                     <Image
-                        src="/description.png"
-                        width={20}
-                        height={20}
+                        src={logo}
+                        width={50}
+                        height={50}
                         alt=""
-                        className="object-contain mr-2"
+                        className="object-contain shadow-sm shadow-amber-400 rounded-md h-fit"
                     />
-                    <p className="text-amber-400">Description:</p>
+                    <h1 className="text-amber-400 self-end pl-5 text-lg md:text-4xl text-center w-full pr-[55px]">
+                        {title}
+                    </h1>
                 </div>
-                {description}
-            </span>
-            <span className="pt-5">
-                <div className="flex">
+                <div className="flex justify-center col-span-2 pt-5 items-center">
                     <Image
-                        src="/code.png"
-                        width={20}
-                        height={20}
+                        src="/lcurly.png"
+                        width={50}
+                        height={50}
                         alt=""
-                        className="object-contain mr-2"
+                        className="object-contain"
                     />
-                    <p className="text-amber-400">Tech / Skills:</p>
-                </div>
-                <div className="flex">
+                    <a href={projLink} className="button h-fit">
+                        View Project
+                    </a>
                     <Image
-                        src="/arrow.png"
-                        width={20}
-                        height={20}
+                        src="/rcurly.png"
+                        width={50}
+                        height={50}
                         alt=""
-                        className="object-contain md:ml-5 mr-2"
+                        className="object-contain"
                     />
-                    {tech}
                 </div>
-            </span>
-            <span className="pt-5">
-                <div className="flex flex-col">
+                <span className="col-span-2 pt-5">
                     <div className="flex">
                         <Image
-                            src="/github.png"
+                            src="/description.png"
                             width={20}
                             height={20}
                             alt=""
-                            className="object-contain ml-5 mr-2"
+                            className="object-contain mr-2"
                         />
-                        <p className="text-amber-400">GitHub:</p>
+                        <p className="text-amber-400">Description:</p>
                     </div>
-                    <div className="flex max-w-full">
+                    {description}
+                </span>
+                <span className="pt-5">
+                    <div className="flex">
                         <Image
-                            src="/link.png"
+                            src="/code.png"
                             width={20}
                             height={20}
                             alt=""
-                            className="object-contain ml-5 sm:ml-10 mr-2"
+                            className="object-contain mr-2"
                         />
-                        <a
-                            href={github}
-                            className="underline text-amber-400 hover:cursor-pointer"
-                        >
-                            {title}
-                        </a>
+                        <p className="text-amber-400">Tech / Skills:</p>
                     </div>
-                </div>
-            </span>
+                    <div className="flex">
+                        <Image
+                            src="/arrow.png"
+                            width={20}
+                            height={20}
+                            alt=""
+                            className="object-contain md:ml-5 mr-2"
+                        />
+                        <span className="text-red-600">{tech}</span>
+                    </div>
+                </span>
+                <span className="pt-5">
+                    <div className="flex flex-col">
+                        <div className="flex">
+                            <Image
+                                src="/github.png"
+                                width={20}
+                                height={20}
+                                alt=""
+                                className="object-contain ml-5 mr-2"
+                            />
+                            <p className="text-amber-400">GitHub:</p>
+                        </div>
+                        <div className="flex max-w-full">
+                            <Image
+                                src="/link.png"
+                                width={20}
+                                height={20}
+                                alt=""
+                                className="object-contain ml-5 sm:ml-10 mr-2"
+                            />
+                            <a
+                                href={github}
+                                className="underline decoration text-amber-200 hover:cursor-pointer"
+                            >
+                                Project Repo
+                            </a>
+                        </div>
+                    </div>
+                </span>
+            </div>
         </div>
     );
 }

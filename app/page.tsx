@@ -35,7 +35,7 @@ export default function Home() {
 
     return (
         <>
-            <div className="text-4xl md:text-5xl lg:text-7xl font-thin text-amber-400">
+            <div className="text-4xl md:text-5xl lg:text-7xl font-thin text-amber-400 title-text-shadow">
                 {"Estevão Dev. Portfolio"}
             </div>
             <span className="py-10 font-mono italic text-xs md:text-lg text-center">
