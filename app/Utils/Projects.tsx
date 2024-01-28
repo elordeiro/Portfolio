@@ -14,11 +14,11 @@ export const Projects = [
         logo: "/proj0.png",
         description:
             "Reverse Engineered and Built a React app using tailwind that dynamically calculates and breaks down loan details for a mortgage.",
-        tech: "React, Tailwind, TypeScript, Vercel, CD/CI",
+        tech: "React, Tailwind, TypeScript, Next.js, CD/CI",
         github: "https://github.com/elordeiro/mortgage-calculator",
     },
     {
-        title: "Health and Fitness Calculator",
+        title: "Health and Fitness Calculators",
         projLink: "https://elordeiro.github.io/health-fitness-calculators/",
         logo: "/proj1.png",
         description:
@@ -41,11 +41,11 @@ export const Projects = [
         logo: "/proj3.png",
         description:
             "Developed comprehensive data structures and algorithms in C.",
-        tech: "C, VSCode CLI app",
+        tech: "C, VSCode, CLI app building",
         github: "https://github.com/elordeiro/DataStructures_C",
     },
     {
-        title: "File Compression App",
+        title: "File Compression Program",
         projLink: "",
         logo: "/proj4.png",
         description:
