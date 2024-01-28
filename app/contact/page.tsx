@@ -19,7 +19,7 @@ export default function page() {
                         />
                         <a
                             href="mailto:estevao@lordeiro.com"
-                            className="text-xl ml-2 underline text-amber-200 text-amber-200"
+                            className="text-xl ml-2 underline text-amber-200"
                         >
                             estevao@lordeiro.com
                         </a>
@@ -39,7 +39,7 @@ export default function page() {
                         />
                         <a
                             href="https://www.linkedin.com/in/elordeiro/"
-                            className="text-xl ml-2 underline text-amber-200"
+                            className="text-xl ml-2 underline"
                             target="_blank"
                         >
                             https://www.linkedin.com/in/elordeiro/
@@ -63,7 +63,7 @@ export default function page() {
                         />
                         <a
                             href="https://github.com/elordeiro"
-                            className="text-xl ml-2 underline text-amber-200"
+                            className="text-xl ml-2 underline"
                             target="_blank"
                         >
                             GitHub
@@ -79,7 +79,7 @@ export default function page() {
                         />
                         <a
                             href="https://leetcode.com/theleetcodeaccount/"
-                            className="text-xl ml-2 underline text-amber-200"
+                            className="text-xl ml-2 underline"
                             target="_blank"
                         >
                             LeetCode
@@ -95,7 +95,7 @@ export default function page() {
                         />
                         <a
                             href="https://www.youtube.com/channel/UCaod87aatcE2XQZEi3msJvQ"
-                            className="text-xl ml-2 underline text-amber-200"
+                            className="text-xl ml-2 underline"
                             target="_blank"
                         >
                             YouTube

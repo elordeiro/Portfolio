@@ -34,10 +34,10 @@ export default function Home() {
     }, []);
 
     return (
-        <main className="flex min-h-screen flex-col items-center">
-            <span className="mt-[60px] text-4xl md:text-5xl lg:text-7xl font-thin text-amber-400">
+        <>
+            <div className="text-4xl md:text-5xl lg:text-7xl font-thin text-amber-400">
                 {"Estevão Dev. Portfolio"}
-            </span>
+            </div>
             <span className="py-10 font-mono italic text-xs md:text-lg text-center">
                 {"This is my portfolio. "}
                 {(width ?? 0) < 911 && <br />}
@@ -75,6 +75,6 @@ export default function Home() {
                 </Accordion>
             </div>
             <div className="h-[50px]"></div>
-        </main>
+        </>
     );
 }

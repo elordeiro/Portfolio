@@ -11,7 +11,7 @@ export default function Project({
     github,
 }: ProjectProps) {
     return (
-        <div className="rounded-xl border-2 border-amber-500 grid grid-cols-2 p-5 gap-5 divide-dotted divide-y-2 shadow-md shadow-slate-500">
+        <div className="rounded-xl border-2 border-amber-500 grid grid-cols-2 p-5 gap-5 divide-dotted divide-y-2 shadow-md shadow-slate-500 bg-[#1e293b90]">
             <div className="col-span-2 flex">
                 <Image
                     src={logo}

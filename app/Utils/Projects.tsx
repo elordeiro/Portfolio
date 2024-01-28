@@ -42,7 +42,7 @@ export const Projects = [
         description:
             "Developed comprehensive data structures and algorithms in C.",
         tech: "C, VSCode CLI app",
-        github: "https://github.com/elordeiro/mortgage-calculator",
+        github: "https://github.com/elordeiro/DataStructures_C",
     },
     {
         title: "File Compression App",

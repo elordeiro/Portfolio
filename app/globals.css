@@ -6,6 +6,10 @@
     --foreground-rgb: 0, 0, 0;
     --background-start-rgb: 214, 219, 220;
     --background-end-rgb: 255, 255, 255;
+    --background: hsl(240, 10%, 3.9%);
+    --navbar-bg: var(--background) / 60;
+    --border-color: #f8fafc0f;
+    --border-div: #888888;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -29,7 +33,7 @@ body {
             var(--background-end-hex)
         )
         var(--background-start-hex);
-    background: #23272d;
+    background: var(--background);
 }
 
 @layer components {
@@ -41,7 +45,12 @@ body {
     }
 
     .navbar {
-        @apply flex flex-col bg-[#1D2127] h-fit w-[100lvw] text-center font-light shadow shadow-slate-900 fixed;
+        @apply flex flex-col bg-[--navbar-bg] h-20 w-[100lvw] text-center font-light border-b border-[--border-color] fixed
+                   backdrop-filter backdrop-blur-md backdrop-saturate-150 top-0 z-50 py-3;
+    }
+    .text-shadow {
+        text-shadow: 0 0 10px #ffc600, 0 0 20px #ffc600, 0 0 30px #ffc600,
+            0 0 40px #ffc600;
     }
 }
 
