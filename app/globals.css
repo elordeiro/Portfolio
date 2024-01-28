@@ -19,6 +19,9 @@
 }
 
 body {
+    margin: 0;
+    padding: 0;
+    width: 100lvw;
     color: rgb(var(--foreground-rgb));
     background: linear-gradient(
             to bottom,
@@ -38,7 +41,7 @@ body {
     }
 
     .navbar {
-        @apply flex flex-col bg-[#1D2127] h-fit w-full text-center font-light shadow shadow-slate-900 fixed;
+        @apply flex flex-col bg-[#1D2127] h-fit w-[100lvw] text-center font-light shadow shadow-slate-900 fixed;
     }
 }
 

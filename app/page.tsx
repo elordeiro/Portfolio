@@ -1,11 +1,15 @@
 "use client";
 
-import Image from "next/image";
-import Navbar from "./Navbar";
-import Project from "./Project";
-import { ProjectProps, Projects } from "./Projects";
+import Project from "./Components/Project";
+import { ProjectProps, Projects } from "./Utils/Projects";
 import { useEffect, useState } from "react";
-
+import {
+    Accordion,
+    AccordionContent,
+    AccordionItem,
+    AccordionTrigger,
+} from "@/components/ui/accordion";
+import Credits from "./Components/Credits";
 export default function Home() {
     const [width, setWidth] = useState<number | undefined>(undefined);
 
@@ -31,12 +35,11 @@ export default function Home() {
 
     return (
         <main className="flex min-h-screen flex-col items-center">
-            <Navbar />
-            <span className="mt-[60px] text-4xl md:text-5xl lg:text-7xl font-thin">
+            <span className="mt-[60px] text-4xl md:text-5xl lg:text-7xl font-thin text-amber-400">
                 {"Estevão Dev. Portfolio"}
             </span>
             <span className="py-10 font-mono italic text-xs md:text-lg text-center">
-                {"This is my portfolio."}
+                {"This is my portfolio. "}
                 {(width ?? 0) < 911 && <br />}
                 {"I'm a software developer,"}
                 {(width ?? 0) < 911 && <br />}
@@ -60,8 +63,18 @@ export default function Home() {
                         key={key}
                     />
                 ))}
+
+                <div className="h-[50px]"></div>
+                <Accordion type="single" collapsible className="">
+                    <AccordionItem value="item-1">
+                        <AccordionTrigger>Icon Credits</AccordionTrigger>
+                        <AccordionContent>
+                            <Credits />
+                        </AccordionContent>
+                    </AccordionItem>
+                </Accordion>
             </div>
-            <div className="h-[100px]"></div>
+            <div className="h-[50px]"></div>
         </main>
     );
 }

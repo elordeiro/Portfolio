@@ -10,7 +10,7 @@ export interface ProjectProps {
 export const Projects = [
     {
         title: "Mortgage Calculator",
-        projLink: "https://elordeiro-mortgage-calculator.vercel.app/",
+        projLink: "https://mortgage-calculator.lordeiro.com/",
         logo: "/proj0.png",
         description:
             "Reverse Engineered and Built a React app using tailwind that dynamically calculates and breaks down loan details for a mortgage.",

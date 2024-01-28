@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { ProjectProps } from "./Projects";
+import { ProjectProps } from "../Utils/Projects";
 
 export default function Project({
     title,
@@ -11,7 +11,7 @@ export default function Project({
     github,
 }: ProjectProps) {
     return (
-        <div className="rounded-xl border-2 border-amber-500 grid grid-cols-2 p-5 gap-5 divide-dotted divide-y-2">
+        <div className="rounded-xl border-2 border-amber-500 grid grid-cols-2 p-5 gap-5 divide-dotted divide-y-2 shadow-md shadow-slate-500">
             <div className="col-span-2 flex">
                 <Image
                     src={logo}
@@ -20,7 +20,7 @@ export default function Project({
                     alt=""
                     className="object-contain"
                 />
-                <h1 className="text-amber-400 self-end pl-5 text-4xl text-center w-full pr-[55px]">
+                <h1 className="text-amber-400 self-end pl-5 text-lg md:text-4xl text-center w-full pr-[55px]">
                     {title}
                 </h1>
             </div>
