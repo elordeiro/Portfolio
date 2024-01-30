@@ -9,7 +9,6 @@ import React from "react";
 export default function Navbar() {
     const pathname = usePathname();
 
-    pathname === "/" && console.log("we home");
     return (
         <>
             <header className="navbar">

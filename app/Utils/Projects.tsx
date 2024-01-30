@@ -1,12 +1,3 @@
-export interface ProjectProps {
-    title: string;
-    projLink: string;
-    logo: string;
-    description: string;
-    tech: string;
-    github: string;
-}
-
 export const Projects = [
     {
         title: "Mortgage Calculator",
@@ -28,7 +19,7 @@ export const Projects = [
     },
     {
         title: "Battleship Multiplayer Game",
-        projLink: "",
+        projLink: "/projects/battleship",
         logo: "/proj2.png",
         description:
             "Developed a BattleShip game in Java as part of a team, using spring framework and MVC architcture.",
@@ -37,7 +28,7 @@ export const Projects = [
     },
     {
         title: "Data Structures & Algorithms",
-        projLink: "https://elordeiro-mortgage-calculator.vercel.app/",
+        projLink: "/projects/dsa",
         logo: "/proj3.png",
         description:
             "Developed comprehensive data structures and algorithms in C.",
@@ -46,7 +37,7 @@ export const Projects = [
     },
     {
         title: "File Compression Program",
-        projLink: "",
+        projLink: "/projects/huffman",
         logo: "/proj4.png",
         description:
             "Designed and implemented a program for compression and decompression using custom data structures and Huffman algorithm in C.",
@@ -55,7 +46,7 @@ export const Projects = [
     },
     {
         title: "Tic Tac Toe with Minimax Algorithm",
-        projLink: "",
+        projLink: "/projects/tictactoe",
         logo: "/proj5.png",
         description:
             "Implemented Tic Tac Toe with the minimax algorithm in both graphical and command-line interfaces, demonstrating proficiency in UI design and implementation.",
@@ -64,7 +55,7 @@ export const Projects = [
     },
     {
         title: "Uno Game Simulator",
-        projLink: "",
+        projLink: "/projects/uno",
         logo: "/proj6.png",
         description:
             "Developed an Uno game simulator in Java, illustrating object-oriented programming skills, and algorithmic thinking.",
@@ -83,7 +74,7 @@ export const Projects = [
     },
     {
         title: "Portfolio Website",
-        projLink: "",
+        projLink: "/",
         logo: "/proj8.png",
         description: "Designed and implemented my own portfolio website.",
         tech: "React, Next.js, Tailwind, TypeScript, Vercel, CD/CI",

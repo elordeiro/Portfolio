@@ -1,7 +1,8 @@
 "use client";
 
 import Project from "./Components/Project";
-import { ProjectProps, Projects } from "./Utils/Projects";
+import { Projects } from "./Utils/Projects";
+import { ProjectProps } from "./Utils/Interfaces";
 import { useEffect, useState } from "react";
 import {
     Accordion,

@@ -60,7 +60,7 @@ body {
     }
 
     .project-bg {
-        background-image: url(/overlay.webp);
+        background-image: url(/background.webp);
         background-size: cover;
         /* @apply sepia; */
     }

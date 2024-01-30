@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { ProjectProps } from "../Utils/Projects";
+import { ProjectProps } from "../Utils/Interfaces";
 
 export default function Project({
     title,
@@ -11,7 +11,6 @@ export default function Project({
     github,
 }: ProjectProps) {
     return (
-        // bg-[#1e293b90]
         <div className="project-bg">
             <div className="rounded-xl border-amber-500 grid grid-cols-2 p-5 gap-5 shadow-inner shadow-amber-500  project-overlay">
                 <div className="col-span-2 flex">
