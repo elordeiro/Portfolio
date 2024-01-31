@@ -32,6 +32,7 @@ export default function RootLayout({
         <html lang="en">
             <body className={custom_font.className}>
                 <Navbar />
+                <div className="cool-bg-fixed"></div>
                 <main className="flex flex-col items-center z-10 pt-24">
                     {children}
                 </main>
