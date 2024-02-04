@@ -12,7 +12,7 @@ export default function Project({
 }: ProjectProps) {
     return (
         <div className="project-bg">
-            <div className="rounded-xl border-amber-500 grid grid-cols-2 p-5 gap-5 shadow-inner shadow-amber-500  project-overlay">
+            <div className="rounded-xl border-amber-500 grid grid-cols-2 p-5 gap-5 shadow-inner shadow-amber-500 project-overlay">
                 <div className="col-span-2 flex">
                     <Image
                         src={logo}
@@ -25,15 +25,15 @@ export default function Project({
                         {title}
                     </h1>
                 </div>
-                <div className="flex justify-center col-span-2 pt-5 items-center">
+                <div className="flex justify-center col-span-2 pt-5">
                     <Image
                         src="/lcurly.png"
                         width={50}
                         height={50}
                         alt=""
-                        className="object-contain"
+                        className="object-contain -mt-5"
                     />
-                    <a href={projLink} className="button h-fit">
+                    <a href={projLink} className="button h-fit mb-5">
                         View Project
                     </a>
                     <Image
@@ -41,7 +41,7 @@ export default function Project({
                         width={50}
                         height={50}
                         alt=""
-                        className="object-contain"
+                        className="object-contain -mt-5"
                     />
                 </div>
                 <span className="col-span-2 pt-5">
@@ -55,7 +55,13 @@ export default function Project({
                         />
                         <p className="text-amber-400">Description:</p>
                     </div>
-                    {description}
+                    <ul className="list-disc list-inside">
+                        {description.map((description) => (
+                            <li key={description} className="">
+                                {description}
+                            </li>
+                        ))}
+                    </ul>
                 </span>
                 <span className="pt-5">
                     <div className="flex">

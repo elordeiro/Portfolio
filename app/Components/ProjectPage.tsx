@@ -26,8 +26,8 @@ export default function ProjectPage({
                 {title}
             </div>
 
-            <div className="my-10 rounded-xl p-5 shadow-inner shadow-amber-500 divide-y-2">
-                <div className="flex flex-col pb-10">
+            <div className="my-10 rounded-xl shadow-inner shadow-amber-500 divide-y-2">
+                <div className="flex flex-col p-5 pb-10">
                     <div className="text-xl text-amber-400">
                         Project Run / Image:
                     </div>
@@ -51,13 +51,15 @@ export default function ProjectPage({
                     )}
                 </div>
                 <div className="mt-5 self-center">
-                    <div className="text-xl text-amber-400 py-5">README:</div>
-                    <ReactMarkdown
-                        remarkPlugins={[gfm]}
-                        className="markdown-body"
-                    >
-                        {markdown}
-                    </ReactMarkdown>
+                    <div className="text-xl text-amber-400 p-5">README:</div>
+                    <div className="p-1">
+                        <ReactMarkdown
+                            remarkPlugins={[gfm]}
+                            className="markdown-body p-1"
+                        >
+                            {markdown}
+                        </ReactMarkdown>
+                    </div>
                 </div>
             </div>
         </div>

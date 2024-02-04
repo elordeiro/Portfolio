@@ -2,7 +2,7 @@ export interface ProjectProps {
     title: string;
     projLink: string;
     logo: string;
-    description: string;
+    description: string[];
     tech: string;
     github: string;
 }

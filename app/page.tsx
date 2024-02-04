@@ -35,7 +35,7 @@ export default function Home() {
     }, []);
 
     return (
-        <>
+        <main className="flex flex-col items-center">
             <div className="text-4xl md:text-5xl lg:text-7xl font-thin text-amber-400 title-text-shadow">
                 {"Estevão Dev. Portfolio"}
             </div>
@@ -76,6 +76,6 @@ export default function Home() {
                 </Accordion>
             </div>
             <div className="h-[50px]"></div>
-        </>
+        </main>
     );
 }

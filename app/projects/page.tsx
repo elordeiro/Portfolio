@@ -5,7 +5,7 @@ import { ProjectProps } from "../Utils/Interfaces";
 export default function page() {
     return (
         <main className="flex min-h-screen flex-col items-center font-light">
-            <span className="mt-[60px] text-4xl md:text-5xl lg:text-7xl font-thin text-amber-400 title-text-shadow">
+            <span className="text-4xl md:text-5xl lg:text-7xl font-thin text-amber-400 title-text-shadow">
                 {"All Projects"}
             </span>
             <div>

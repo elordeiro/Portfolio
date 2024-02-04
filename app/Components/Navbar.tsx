@@ -34,12 +34,21 @@ export default function Navbar() {
                     <Link
                         key="Contact"
                         href="/contact"
-                        className={`pl-5 ${
+                        className={`pl-5 pr-5 border-r border-[--border-div] ${
                             pathname === "/contact" ? "text-shadow" : ""
                         }`}
                     >
                         Contact
                     </Link>
+                    {/* <Link
+                        key="Test"
+                        href="/test"
+                        className={`pl-5 ${
+                            pathname === "/test" ? "text-shadow" : ""
+                        }`}
+                    >
+                        Test
+                    </Link> */}
                 </nav>
             </header>
         </>

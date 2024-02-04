@@ -11,12 +11,6 @@ export default function Page({ params }: { params: { project: string } }) {
     };
 
     switch (project) {
-        case "battleship":
-            projectData.title = "Battleship";
-            projectData.showcase = "https://www.youtube.com/embed/kxVwudFWGZA";
-            projectData.readme =
-                "https://raw.githubusercontent.com/elordeiro/battleship/master/README.md";
-            break;
         case "dsa":
             projectData.title = "Data Structures and Algorithms";
             projectData.showcase = "/dsa.png";
@@ -43,10 +37,12 @@ export default function Page({ params }: { params: { project: string } }) {
             break;
     }
     return (
-        <ProjectPage
-            title={projectData.title}
-            showcase={projectData.showcase}
-            readme={projectData.readme}
-        />
+        <main className="flex min-h-screen flex-col items-center font-light">
+            <ProjectPage
+                title={projectData.title}
+                showcase={projectData.showcase}
+                readme={projectData.readme}
+            />
+        </main>
     );
 }

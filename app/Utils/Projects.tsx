@@ -1,82 +1,111 @@
 export const Projects = [
     {
+        title: "Battleship Multiplayer Game",
+        projLink: "https://battleship.lordeiro.com/",
+        logo: "/proj0.png",
+        description: [
+            "Developed a full-stack multiplayer game using Java, SpringBoot and the MVC pattern, demonstrating proficiency in server-side programming and web development.",
+            "Designed and implemented an API for the game, allowing users to play against each other.",
+            "Wrote a collection of test cases using JUnit to ensure the correctness and efficiency of the implementations.",
+            "Published the game on Railway.",
+        ],
+        tech: "Java, SpringBoot Server-side programming, JUnit, Web Development, Railway",
+        github: "https://github.com/elordeiro/battleship",
+    },
+    {
         title: "Mortgage Calculator",
         projLink: "https://mortgage-calculator.lordeiro.com/",
-        logo: "/proj0.png",
-        description:
-            "Reverse Engineered and Built a React app using tailwind that dynamically calculates and breaks down loan details for a mortgage.",
+        logo: "/proj1.png",
+        description: [
+            "Reverse Engineered and built a calculator that dynamically breaks down loan details for a mortgage.",
+            "Implemented a responsive design and a user-friendly interface using React, Tailwind, and TypeScript.",
+            "Deployed the application on Vercel and set up continuous deployment and continuous integration.",
+        ],
         tech: "React, Tailwind, TypeScript, Next.js, CD/CI",
         github: "https://github.com/elordeiro/mortgage-calculator",
     },
     {
         title: "Health and Fitness Calculators",
         projLink: "https://elordeiro.github.io/health-fitness-calculators/",
-        logo: "/proj1.png",
-        description:
+        logo: "/proj2.png",
+        description: [
             "Designed and implemented a website with a collection of various types of calculators related to health and fitness.",
+            "Developed the website without using any frameworks, demonstrating proficiency in fundamental CSS, HTML, and JavaScript.",
+            "Published the website on GitHub Pages.",
+        ],
         tech: "CSS, HTML, JavaScript, Web Development",
         github: "https://github.com/elordeiro/health-fitness-calculators",
     },
     {
-        title: "Battleship Multiplayer Game",
-        projLink: "/projects/battleship",
-        logo: "/proj2.png",
-        description:
-            "Developed a BattleShip game in Java as part of a team, using spring framework and MVC architcture.",
-        tech: "Java, SpringBoot Server-side programming, Web Development",
-        github: "https://github.com/elordeiro/battleship",
+        title: " UMass Boston C.S. Program Chart",
+        projLink:
+            "https://umbcs.github.io/UMassCSPreReqChart/CSChart_unified.html",
+        logo: "/proj3.png",
+        description: [
+            "Designed and implemented a webpage to display all Computer Science classes and their prerequisites.",
+            "Developed the webpage using mermaid, HTML, and JavaScript, for better interactivity.",
+            "Published the webpage on the Computer Science department's website contributing to improved accessibility for all students.",
+        ],
+        tech: "Mermaid, HTML, JavaScript Web Development",
+        github: "https://github.com/elordeiro/UMassCSPreReqChar",
     },
     {
         title: "Data Structures & Algorithms",
         projLink: "/projects/dsa",
-        logo: "/proj3.png",
-        description:
-            "Developed comprehensive data structures and algorithms in C.",
-        tech: "C, VSCode, CLI app building",
+        logo: "/proj4.png",
+        description: [
+            "Developed a collection of data structures and algorithms, including linked lists, stacks, queues, trees, and sorting algorithms.",
+            "Implemented the data structures and algorithms in C, demonstrating proficiency in low-level programming.",
+            "Wrote a collection of test cases to ensure the correctness and efficiency of the implementations.",
+        ],
+        tech: "C, DSA, CS fundamentals, VSCode",
         github: "https://github.com/elordeiro/DataStructures_C",
     },
     {
         title: "File Compression Program",
         projLink: "/projects/huffman",
-        logo: "/proj4.png",
-        description:
-            "Designed and implemented a program for compression and decompression using custom data structures and Huffman algorithm in C.",
+        logo: "/proj5.png",
+        description: [
+            "Developed a file compression program using the Huffman algorithm, and the abovementioned custom data structures.",
+            "Tested the program with a target of 0 memory leaks, demonstrating proficiency in debugging and testing.",
+            "Published the program on GitHub.",
+        ],
         tech: "C, Practical application of data structures",
         github: "https://github.com/elordeiro/HuffmanCompression",
     },
     {
         title: "Tic Tac Toe with Minimax Algorithm",
         projLink: "/projects/tictactoe",
-        logo: "/proj5.png",
-        description:
-            "Implemented Tic Tac Toe with the minimax algorithm in both graphical and command-line interfaces, demonstrating proficiency in UI design and implementation.",
+        logo: "/proj6.png",
+        description: [
+            "Developed a Tic Tac Toe game with an AI using the Minimax algorithm, demonstrating proficiency in game development and AI.",
+            "Designed and implemented a user-friendly interface using PyGame and UI design principles.",
+            "Implemented the game with a GUI and CLI version, showing proficiency in code modularity.",
+        ],
         tech: "Python, PyGame, UI Design",
         github: "https://github.com/elordeiro/tictactoe",
     },
     {
         title: "Uno Game Simulator",
         projLink: "/projects/uno",
-        logo: "/proj6.png",
-        description:
-            "Developed an Uno game simulator in Java, illustrating object-oriented programming skills, and algorithmic thinking.",
-        tech: "Java, Object-oriented programming, Algorithmic thinking",
-        github: "https://github.com/elordeiro/uno",
-    },
-    {
-        title: "C.S. Prequisites Website",
-        projLink:
-            "https://umbcs.github.io/UMassCSPreReqChart/CSChart_unified.html",
         logo: "/proj7.png",
-        description:
-            "Published a webpage on the CS department's website using mermaid to display all Computer Science classes and their prerequisites, contributing to improved accessibility for all students.",
-        tech: "Mermaid, HTML, JavaScript Web Development",
-        github: "https://github.com/elordeiro/UMassCSPreReqChar",
+        description: [
+            "Developed an Uno game simulator using Java illustrating object-oriented programming skills, and algorithmic thinking.",
+            "Designed and implemented a collection of classes and methods to simulate the game.",
+            "Wrote a 'view' state to log the entire output of the game to a text file.",
+        ],
+        tech: "Java, Maven, JUnit, Object-oriented programming, Algorithmic thinking",
+        github: "https://github.com/elordeiro/uno",
     },
     {
         title: "Portfolio Website",
         projLink: "/",
         logo: "/proj8.png",
-        description: "Designed and implemented my own portfolio website.",
+        description: [
+            "Designed and implemented a portfolio website using React, Next.js, and Tailwind, demonstrating proficiency in web development.",
+            "Deployed the website on Vercel and set up continuous deployment and continuous integration.",
+            "Published the website on GitHub.",
+        ],
         tech: "React, Next.js, Tailwind, TypeScript, Vercel, CD/CI",
         github: "https://github.com/elordeiro/portfolio-react",
     },

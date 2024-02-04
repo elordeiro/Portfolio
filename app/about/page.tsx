@@ -1,7 +1,7 @@
 export default function page() {
     return (
-        <main className="flex min-h-screen flex-col items-center font-light">
-            <span className="mt-[60px] text-4xl md:text-5xl lg:text-7xl font-thin text-amber-400 title-text-shadow">
+        <main className="flex min-h-screen flex-col items-center font-light z-10">
+            <span className="text-4xl md:text-5xl lg:text-7xl font-thin text-amber-400 title-text-shadow">
                 {"About Me"}
             </span>
             <div className="grid w-[90dvw] sm:w-[60dvw] mt-20 text-lg gap-10">
