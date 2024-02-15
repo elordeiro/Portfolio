@@ -4,9 +4,9 @@ export const Projects = [
         projLink: "https://battleship.lordeiro.com/",
         logo: "/proj0.png",
         description: [
-            "Developed a full-stack multiplayer game using Java, SpringBoot and the MVC pattern, demonstrating proficiency in server-side programming and web development.",
+            "Developed a full-stack multiplayer game using Java, SpringBoot, and the MVC pattern, demonstrating proficiency in server-side programming and web development.",
             "Designed and implemented an API for the game, allowing users to play against each other.",
-            "Wrote a collection of test cases using JUnit to ensure the correctness and efficiency of the implementations.",
+            "Wrote a collection of test cases using JUnit to ensure the correctness of the game logic.",
             "Published the game on Railway.",
         ],
         tech: "Java, SpringBoot Server-side programming, JUnit, Web Development, Railway",
@@ -30,8 +30,8 @@ export const Projects = [
         logo: "/proj2.png",
         description: [
             "Designed and implemented a website with a collection of various types of calculators related to health and fitness.",
-            "Developed the website without using any frameworks, demonstrating proficiency in fundamental CSS, HTML, and JavaScript.",
-            "Published the website on GitHub Pages.",
+            "Developed the website without using any frameworks, illustrating competence in fundamental HTML, CSS, and JavaScript.",
+            "Compiled over 10 different types of the most used fitness calculators that have proved very useful in helping people achieve their fitness goals.",
         ],
         tech: "CSS, HTML, JavaScript, Web Development",
         github: "https://github.com/elordeiro/health-fitness-calculators",
@@ -42,8 +42,8 @@ export const Projects = [
             "https://umbcs.github.io/UMassCSPreReqChart/CSChart_unified.html",
         logo: "/proj3.png",
         description: [
-            "Designed and implemented a webpage to display all Computer Science classes and their prerequisites.",
-            "Developed the webpage using mermaid, HTML, and JavaScript, for better interactivity.",
+            "Created a webpage to display all Computer Science classes and their prerequisites.",
+            "Built the webpage using Mermaid, HTML, and JavaScript, for better interactivity.",
             "Published the webpage on the Computer Science department's website contributing to improved accessibility for all students.",
         ],
         tech: "Mermaid, HTML, JavaScript Web Development",
@@ -55,7 +55,7 @@ export const Projects = [
         logo: "/proj4.png",
         description: [
             "Developed a collection of data structures and algorithms, including linked lists, stacks, queues, trees, and sorting algorithms.",
-            "Implemented the data structures and algorithms in C, demonstrating proficiency in low-level programming.",
+            "Implemented the data structures and algorithms in C, displaying adeptness in low-level programming.",
             "Wrote a collection of test cases to ensure the correctness and efficiency of the implementations.",
         ],
         tech: "C, DSA, CS fundamentals, VSCode",
@@ -67,8 +67,8 @@ export const Projects = [
         logo: "/proj5.png",
         description: [
             "Developed a file compression program using the Huffman algorithm, and the abovementioned custom data structures.",
-            "Tested the program with a target of 0 memory leaks, demonstrating proficiency in debugging and testing.",
-            "Published the program on GitHub.",
+            "Achieved a 40% compression rate when working with text files.",
+            "Tested the program with a target of 0 memory leaks, showcasing skill in debugging and testing.",
         ],
         tech: "C, Practical application of data structures",
         github: "https://github.com/elordeiro/HuffmanCompression",
@@ -78,7 +78,7 @@ export const Projects = [
         projLink: "/projects/tictactoe",
         logo: "/proj6.png",
         description: [
-            "Developed a Tic Tac Toe game with an AI using the Minimax algorithm, demonstrating proficiency in game development and AI.",
+            "Developed a Tic Tac Toe game with an AI using the Minimax algorithm, demonstrating competence in game development and AI.",
             "Designed and implemented a user-friendly interface using PyGame and UI design principles.",
             "Implemented the game with a GUI and CLI version, showing proficiency in code modularity.",
         ],
@@ -102,7 +102,7 @@ export const Projects = [
         projLink: "/",
         logo: "/proj8.png",
         description: [
-            "Designed and implemented a portfolio website using React, Next.js, and Tailwind, demonstrating proficiency in web development.",
+            "Designed and implemented a portfolio website using React, Next.js, and Tailwind, showing aptitude in web development.",
             "Deployed the website on Vercel and set up continuous deployment and continuous integration.",
             "Published the website on GitHub.",
         ],
