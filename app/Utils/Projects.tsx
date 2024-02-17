@@ -4,7 +4,8 @@ export const Projects = [
         projLink: "https://battleship.lordeiro.com/",
         logo: "/proj0.png",
         description: [
-            "Developed a full-stack multiplayer game using Java, SpringBoot, and the MVC pattern, demonstrating proficiency in server-side programming and web development.",
+            "Developed a full-stack multiplayer game as part of a group, showing ability to work and cooperate in a team environment.",
+            "Used Java, SpringBoot, and the MVC pattern in production, demonstrating proficiency in server-side programming and web development.",
             "Designed and implemented an API for the game, allowing users to play against each other.",
             "Wrote a collection of test cases using JUnit to ensure the correctness of the game logic.",
             "Published the game on Railway.",
