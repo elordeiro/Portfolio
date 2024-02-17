@@ -6,8 +6,8 @@ export const Projects = [
         description: [
             "Developed a full-stack multiplayer game as part of a group, showing ability to work and cooperate in a team environment.",
             "Used Java, SpringBoot, and the MVC pattern in production, demonstrating proficiency in server-side programming and web development.",
-            "Designed and implemented an API for the game, allowing users to play against each other.",
-            "Wrote a collection of test cases using JUnit to ensure the correctness of the game logic.",
+            "Wrote an API for the game, allowing users to play against each other.",
+            "Integrated a collection of test cases using JUnit to ensure the correctness of the game logic.",
             "Published the game on Railway.",
         ],
         tech: "Java, SpringBoot Server-side programming, JUnit, Web Development, Railway",
@@ -19,7 +19,7 @@ export const Projects = [
         logo: "/proj1.png",
         description: [
             "Reverse Engineered and built a calculator that dynamically breaks down loan details for a mortgage.",
-            "Implemented a responsive design and a user-friendly interface using React, Tailwind, and TypeScript.",
+            "Formulated a responsive design and a user-friendly interface using React, Tailwind, and TypeScript.",
             "Deployed the application on Vercel and set up continuous deployment and continuous integration.",
         ],
         tech: "React, Tailwind, TypeScript, Next.js, CD/CI",
@@ -31,7 +31,7 @@ export const Projects = [
         logo: "/proj2.png",
         description: [
             "Designed and implemented a website with a collection of various types of calculators related to health and fitness.",
-            "Developed the website without using any frameworks, illustrating competence in fundamental HTML, CSS, and JavaScript.",
+            "Created the website without using any frameworks, illustrating competence in fundamental HTML, CSS, and JavaScript.",
             "Compiled over 10 different types of the most used fitness calculators that have proved very useful in helping people achieve their fitness goals.",
         ],
         tech: "CSS, HTML, JavaScript, Web Development",
@@ -43,7 +43,7 @@ export const Projects = [
             "https://umbcs.github.io/UMassCSPreReqChart/CSChart_unified.html",
         logo: "/proj3.png",
         description: [
-            "Created a webpage to display all Computer Science classes and their prerequisites.",
+            "Programmed a webpage to display all Computer Science classes and their prerequisites.",
             "Built the webpage using Mermaid, HTML, and JavaScript, for better interactivity.",
             "Published the webpage on the Computer Science department's website contributing to improved accessibility for all students.",
         ],
@@ -55,8 +55,8 @@ export const Projects = [
         projLink: "/projects/dsa",
         logo: "/proj4.png",
         description: [
-            "Developed a collection of data structures and algorithms, including linked lists, stacks, queues, trees, and sorting algorithms.",
-            "Implemented the data structures and algorithms in C, displaying adeptness in low-level programming.",
+            "Put together a collection of data structures and algorithms modules, including linked lists, stacks, queues, trees, and sorting algorithms into a library.",
+            "Implemented each module in C, displaying adeptness in low-level programming.",
             "Wrote a collection of test cases to ensure the correctness and efficiency of the implementations.",
         ],
         tech: "C, DSA, CS fundamentals, VSCode",
@@ -67,7 +67,7 @@ export const Projects = [
         projLink: "/projects/huffman",
         logo: "/proj5.png",
         description: [
-            "Developed a file compression program using the Huffman algorithm, and the abovementioned custom data structures.",
+            "Engineered a file compression / decompression program using the Huffman algorithm, and the abovementioned custom data structures.",
             "Achieved a 40% compression rate when working with text files.",
             "Tested the program with a target of 0 memory leaks, showcasing skill in debugging and testing.",
         ],
