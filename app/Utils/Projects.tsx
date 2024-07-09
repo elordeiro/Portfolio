@@ -1,7 +1,7 @@
 export const Projects = [
     {
         title: "Redis Server",
-        projLink: "https://github.com/elordeiro/building-my-own-redis",
+        projLink: "projects/redis",
         logo: "/proj9.png",
         description: [
             "Developed a Redis server from scratch in Go",

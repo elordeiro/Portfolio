@@ -35,6 +35,11 @@ export default function Page({ params }: { params: { project: string } }) {
             projectData.readme =
                 "https://raw.githubusercontent.com/elordeiro/Uno/master/Readme.md";
             break;
+        case "redis":
+            projectData.title = "Redis Server";
+            projectData.showcase = "/redis.png";
+            projectData.readme =
+                "https://raw.githubusercontent.com/elordeiro/building-my-own-redis/master/README.md";
     }
     return (
         <main className="flex min-h-screen flex-col items-center font-light">
