@@ -1,0 +1,30 @@
+"filename", "language", "JSON with Comments", "TypeScript", "JSON", "JavaScript", "TypeScript JSX", "Markdown", "CSS", "comment", "blank", "total"
+"/Users/estevaolordeiro/GitHub/portfolio-react/.eslintrc.json", "JSON with Comments", 3, 0, 0, 0, 0, 0, 0, 0, 1, 4
+"/Users/estevaolordeiro/GitHub/portfolio-react/README.md", "Markdown", 0, 0, 0, 0, 0, 23, 0, 0, 14, 37
+"/Users/estevaolordeiro/GitHub/portfolio-react/app/(test)/layout.tsx", "TypeScript JSX", 0, 0, 0, 0, 26, 0, 0, 0, 7, 33
+"/Users/estevaolordeiro/GitHub/portfolio-react/app/(test)/test/page.tsx", "TypeScript JSX", 0, 0, 0, 0, 12, 0, 0, 0, 1, 13
+"/Users/estevaolordeiro/GitHub/portfolio-react/app/Components/Credits.tsx", "TypeScript JSX", 0, 0, 0, 0, 64, 0, 0, 0, 2, 66
+"/Users/estevaolordeiro/GitHub/portfolio-react/app/Components/Navbar.tsx", "TypeScript JSX", 0, 0, 0, 0, 43, 0, 0, 9, 5, 57
+"/Users/estevaolordeiro/GitHub/portfolio-react/app/Components/Project.tsx", "TypeScript JSX", 0, 0, 0, 0, 119, 0, 0, 0, 2, 121
+"/Users/estevaolordeiro/GitHub/portfolio-react/app/Components/ProjectPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 63, 0, 0, 0, 5, 68
+"/Users/estevaolordeiro/GitHub/portfolio-react/app/Utils/Interfaces.tsx", "TypeScript JSX", 0, 0, 0, 0, 13, 0, 0, 0, 2, 15
+"/Users/estevaolordeiro/GitHub/portfolio-react/app/Utils/Projects.tsx", "TypeScript JSX", 0, 0, 0, 0, 113, 0, 0, 8, 1, 122
+"/Users/estevaolordeiro/GitHub/portfolio-react/app/about/page.tsx", "TypeScript JSX", 0, 0, 0, 0, 100, 0, 0, 0, 1, 101
+"/Users/estevaolordeiro/GitHub/portfolio-react/app/contact/page.tsx", "TypeScript JSX", 0, 0, 0, 0, 108, 0, 0, 0, 2, 110
+"/Users/estevaolordeiro/GitHub/portfolio-react/app/globals.css", "CSS", 0, 0, 0, 0, 0, 0, 56, 1, 9, 66
+"/Users/estevaolordeiro/GitHub/portfolio-react/app/layout.tsx", "TypeScript JSX", 0, 0, 0, 0, 31, 0, 0, 2, 8, 41
+"/Users/estevaolordeiro/GitHub/portfolio-react/app/page.tsx", "TypeScript JSX", 0, 0, 0, 0, 70, 0, 0, 4, 8, 82
+"/Users/estevaolordeiro/GitHub/portfolio-react/app/projects/[project]/page.tsx", "TypeScript JSX", 0, 0, 0, 0, 45, 0, 0, 0, 4, 49
+"/Users/estevaolordeiro/GitHub/portfolio-react/app/projects/page.tsx", "TypeScript JSX", 0, 0, 0, 0, 30, 0, 0, 0, 2, 32
+"/Users/estevaolordeiro/GitHub/portfolio-react/components.json", "JSON", 0, 0, 17, 0, 0, 0, 0, 0, 0, 17
+"/Users/estevaolordeiro/GitHub/portfolio-react/components/ui/accordion.tsx", "TypeScript JSX", 0, 0, 0, 0, 50, 0, 0, 0, 9, 59
+"/Users/estevaolordeiro/GitHub/portfolio-react/components/ui/button.tsx", "TypeScript JSX", 0, 0, 0, 0, 51, 0, 0, 0, 6, 57
+"/Users/estevaolordeiro/GitHub/portfolio-react/lib/utils.ts", "TypeScript", 0, 5, 0, 0, 0, 0, 0, 0, 2, 7
+"/Users/estevaolordeiro/GitHub/portfolio-react/next.config.mjs", "JavaScript", 0, 0, 0, 2, 0, 0, 0, 1, 2, 5
+"/Users/estevaolordeiro/GitHub/portfolio-react/package-lock.json", "JSON", 0, 0, 6477, 0, 0, 0, 0, 0, 1, 6478
+"/Users/estevaolordeiro/GitHub/portfolio-react/package.json", "JSON", 0, 0, 39, 0, 0, 0, 0, 0, 1, 40
+"/Users/estevaolordeiro/GitHub/portfolio-react/postcss.config.js", "JavaScript", 0, 0, 0, 6, 0, 0, 0, 0, 1, 7
+"/Users/estevaolordeiro/GitHub/portfolio-react/public/main.7ef391e4.js", "JavaScript", 0, 0, 0, 1, 0, 0, 0, 0, 0, 1
+"/Users/estevaolordeiro/GitHub/portfolio-react/tailwind.config.ts", "TypeScript", 0, 78, 0, 0, 0, 0, 0, 0, 2, 80
+"/Users/estevaolordeiro/GitHub/portfolio-react/tsconfig.json", "JSON with Comments", 26, 0, 0, 0, 0, 0, 0, 0, 1, 27
+"Total", "-", 29, 83, 6533, 9, 938, 23, 56, 25, 99, 7795

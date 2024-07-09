@@ -1,0 +1,75 @@
+Date : 2024-02-18 02:16:38
+Directory : /Users/estevaolordeiro/GitHub/portfolio-react
+Total : 28 files,  7671 codes, 25 comments, 99 blanks, all 7795 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JSON               |          3 |      6,533 |          0 |          2 |      6,535 |
+| TypeScript JSX     |         16 |        938 |         23 |         65 |      1,026 |
+| TypeScript         |          2 |         83 |          0 |          4 |         87 |
+| CSS                |          1 |         56 |          1 |          9 |         66 |
+| JSON with Comments |          2 |         29 |          0 |          2 |         31 |
+| Markdown           |          1 |         23 |          0 |         14 |         37 |
+| JavaScript         |          3 |          9 |          1 |          3 |         13 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                          | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                             |         28 |      7,671 |         25 |         99 |      7,795 |
+| . (Files)                                                                     |          9 |      6,671 |          1 |         23 |      6,695 |
+| app                                                                           |         15 |        893 |         24 |         59 |        976 |
+| app (Files)                                                                   |          3 |        157 |          7 |         25 |        189 |
+| app/(test)                                                                    |          2 |         38 |          0 |          8 |         46 |
+| app/(test) (Files)                                                            |          1 |         26 |          0 |          7 |         33 |
+| app/(test)/test                                                               |          1 |         12 |          0 |          1 |         13 |
+| app/Components                                                                |          4 |        289 |          9 |         14 |        312 |
+| app/Utils                                                                     |          2 |        126 |          8 |          3 |        137 |
+| app/about                                                                     |          1 |        100 |          0 |          1 |        101 |
+| app/contact                                                                   |          1 |        108 |          0 |          2 |        110 |
+| app/projects                                                                  |          2 |         75 |          0 |          6 |         81 |
+| app/projects (Files)                                                          |          1 |         30 |          0 |          2 |         32 |
+| app/projects/[project]                                                        |          1 |         45 |          0 |          4 |         49 |
+| components                                                                    |          2 |        101 |          0 |         15 |        116 |
+| components/ui                                                                 |          2 |        101 |          0 |         15 |        116 |
+| lib                                                                           |          1 |          5 |          0 |          2 |          7 |
+| public                                                                        |          1 |          1 |          0 |          0 |          1 |
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                      | language           | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| /Users/estevaolordeiro/GitHub/portfolio-react/.eslintrc.json                  | JSON with Comments |          3 |          0 |          1 |          4 |
+| /Users/estevaolordeiro/GitHub/portfolio-react/README.md                       | Markdown           |         23 |          0 |         14 |         37 |
+| /Users/estevaolordeiro/GitHub/portfolio-react/app/(test)/layout.tsx           | TypeScript JSX     |         26 |          0 |          7 |         33 |
+| /Users/estevaolordeiro/GitHub/portfolio-react/app/(test)/test/page.tsx        | TypeScript JSX     |         12 |          0 |          1 |         13 |
+| /Users/estevaolordeiro/GitHub/portfolio-react/app/Components/Credits.tsx      | TypeScript JSX     |         64 |          0 |          2 |         66 |
+| /Users/estevaolordeiro/GitHub/portfolio-react/app/Components/Navbar.tsx       | TypeScript JSX     |         43 |          9 |          5 |         57 |
+| /Users/estevaolordeiro/GitHub/portfolio-react/app/Components/Project.tsx      | TypeScript JSX     |        119 |          0 |          2 |        121 |
+| /Users/estevaolordeiro/GitHub/portfolio-react/app/Components/ProjectPage.tsx  | TypeScript JSX     |         63 |          0 |          5 |         68 |
+| /Users/estevaolordeiro/GitHub/portfolio-react/app/Utils/Interfaces.tsx        | TypeScript JSX     |         13 |          0 |          2 |         15 |
+| /Users/estevaolordeiro/GitHub/portfolio-react/app/Utils/Projects.tsx          | TypeScript JSX     |        113 |          8 |          1 |        122 |
+| /Users/estevaolordeiro/GitHub/portfolio-react/app/about/page.tsx              | TypeScript JSX     |        100 |          0 |          1 |        101 |
+| /Users/estevaolordeiro/GitHub/portfolio-react/app/contact/page.tsx            | TypeScript JSX     |        108 |          0 |          2 |        110 |
+| /Users/estevaolordeiro/GitHub/portfolio-react/app/globals.css                 | CSS                |         56 |          1 |          9 |         66 |
+| /Users/estevaolordeiro/GitHub/portfolio-react/app/layout.tsx                  | TypeScript JSX     |         31 |          2 |          8 |         41 |
+| /Users/estevaolordeiro/GitHub/portfolio-react/app/page.tsx                    | TypeScript JSX     |         70 |          4 |          8 |         82 |
+| /Users/estevaolordeiro/GitHub/portfolio-react/app/projects/[project]/page.tsx | TypeScript JSX     |         45 |          0 |          4 |         49 |
+| /Users/estevaolordeiro/GitHub/portfolio-react/app/projects/page.tsx           | TypeScript JSX     |         30 |          0 |          2 |         32 |
+| /Users/estevaolordeiro/GitHub/portfolio-react/components.json                 | JSON               |         17 |          0 |          0 |         17 |
+| /Users/estevaolordeiro/GitHub/portfolio-react/components/ui/accordion.tsx     | TypeScript JSX     |         50 |          0 |          9 |         59 |
+| /Users/estevaolordeiro/GitHub/portfolio-react/components/ui/button.tsx        | TypeScript JSX     |         51 |          0 |          6 |         57 |
+| /Users/estevaolordeiro/GitHub/portfolio-react/lib/utils.ts                    | TypeScript         |          5 |          0 |          2 |          7 |
+| /Users/estevaolordeiro/GitHub/portfolio-react/next.config.mjs                 | JavaScript         |          2 |          1 |          2 |          5 |
+| /Users/estevaolordeiro/GitHub/portfolio-react/package-lock.json               | JSON               |      6,477 |          0 |          1 |      6,478 |
+| /Users/estevaolordeiro/GitHub/portfolio-react/package.json                    | JSON               |         39 |          0 |          1 |         40 |
+| /Users/estevaolordeiro/GitHub/portfolio-react/postcss.config.js               | JavaScript         |          6 |          0 |          1 |          7 |
+| /Users/estevaolordeiro/GitHub/portfolio-react/public/main.7ef391e4.js         | JavaScript         |          1 |          0 |          0 |          1 |
+| /Users/estevaolordeiro/GitHub/portfolio-react/tailwind.config.ts              | TypeScript         |         78 |          0 |          2 |         80 |
+| /Users/estevaolordeiro/GitHub/portfolio-react/tsconfig.json                   | JSON with Comments |         26 |          0 |          1 |         27 |
+| Total                                                                         |                    |      7,671 |         25 |         99 |      7,795 |
++-------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+

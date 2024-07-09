@@ -1,5 +1,21 @@
 export const Projects = [
     {
+        title: "Redis Server",
+        projLink: "https://github.com/elordeiro/building-my-own-redis",
+        logo: "/proj9.png",
+        description: [
+            "Developed a Redis server from scratch in Go",
+            "Engineered concurrent client handling for improved performance",
+            "Implemented replication and command propagation features",
+            "Added support for RDB persistence, including writing and reading from RDB files",
+            "Introduced stream support with blocking read capabilities",
+            "Created a Radix tree data structure for efficient key storage",
+            "Implemented transactional support to ensure atomic operations}",
+        ],
+        tech: "Go, Redis, Server-side programming",
+        github: "https://github.com/elordeiro/building-my-own-redis",
+    },
+    {
         title: "Battleship Multiplayer Game",
         projLink: "https://battleship.lordeiro.com/",
         logo: "/proj0.png",

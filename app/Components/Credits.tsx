@@ -19,6 +19,7 @@ export default function Credits() {
         ["mangsaabguru", "proj6"],
         ["Uniconlabs", "proj7"],
         ["Karyative", "proj8"],
+        ["Iconjam", "proj9"],
         ["iconixar", "email"],
         ["riajulislam", "linkedin"],
         ["Freepik", "github"],
