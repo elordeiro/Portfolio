@@ -42,6 +42,19 @@ export const Projects = [
         github: "https://github.com/elordeiro/mortgage-calculator",
     },
     {
+        title: "HTTP Server",
+        projLink: "projects/http",
+        logo: "/proj10.png",
+        description: [
+            "Developed an HTTP server from scratch in Go",
+            "Engineered concurrent client handling for improved performance",
+            "Implemented a router and a middleware system",
+            "Added support for static files and directory listing",
+        ],
+        tech: "Go, HTTP, Server-side programming",
+        github: "https://github.com/elordeiro/HTTP-Server",
+    },
+    {
         title: "Health and Fitness Calculators",
         projLink: "https://elordeiro.github.io/health-fitness-calculators/",
         logo: "/proj2.png",

@@ -20,6 +20,7 @@ export default function Credits() {
         ["Uniconlabs", "proj7"],
         ["Karyative", "proj8"],
         ["Iconjam", "proj9"],
+        ["Iconjam", "proj10"],
         ["iconixar", "email"],
         ["riajulislam", "linkedin"],
         ["Freepik", "github"],
