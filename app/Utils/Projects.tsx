@@ -54,6 +54,8 @@ export const Projects = [
             "Added support for querying the database and displaying the results",
             "Added support for reading using index pages for faster access",
         ],
+        tech: "Go, SQLite, Databases, BTrees, CLI",
+        github: "https://github.com/elordeiro/SQLite-DBReader",
     },
     {
         title: "HTTP Server",
@@ -78,6 +80,8 @@ export const Projects = [
             "Added support for extended regular expressions with the -E flag",
             "Implemented backtracking for regular expression matching to handle backreferences",
         ],
+        tech: "Go, Regular expressions, CLI",
+        github: "https://github.com/elordeiro/Grep",
     },
     {
         title: "GoLox",
@@ -90,6 +94,8 @@ export const Projects = [
             "(coming...) Added support for control flow, functions, and closures",
             "(coming...) Added support for classes and inheritance",
         ],
+        tech: "Go, Interpreters, Compilers, Lox",
+        github: "https://github.com/elordeiro/GoLox",
     },
     {
         title: "Health and Fitness Calculators",
