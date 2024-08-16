@@ -1,3 +1,5 @@
+import { title } from "process";
+
 export const Projects = [
     {
         title: "Redis Server",
@@ -42,6 +44,18 @@ export const Projects = [
         github: "https://github.com/elordeiro/mortgage-calculator",
     },
     {
+        title: "SQLite Database Reader",
+        projLink: "projects/sqlite",
+        logo: "/proj11.png",
+        description: [
+            "Developed a SQLite database reader from scratch in Go",
+            "Engineered a parser to read and interpret the SQLite file format",
+            "Implemented a command-line interface to interact with the database",
+            "Added support for querying the database and displaying the results",
+            "Added support for reading using index pages for faster access",
+        ],
+    },
+    {
         title: "HTTP Server",
         projLink: "projects/http",
         logo: "/proj10.png",
@@ -55,8 +69,31 @@ export const Projects = [
         github: "https://github.com/elordeiro/HTTP-Server",
     },
     {
+        title: "Grep",
+        projLink: "projects/grep",
+        logo: "/proj12.png",
+        description: [
+            "Developed a grep-like utility for matching regular expressions in strings",
+            "Added support for basic regular expressions",
+            "Added support for extended regular expressions with the -E flag",
+            "Implemented backtracking for regular expression matching to handle backreferences",
+        ],
+    },
+    {
+        title: "GoLox",
+        projLink: "projects/golox",
+        logo: "/proj13.png",
+        description: [
+            "Developed a Lox interpreter in Go",
+            "Engineered a scanner, parser, and interpreter for the Lox language",
+            "(coming...) Implemented a bytecode compiler and a virtual machine",
+            "(coming...) Added support for control flow, functions, and closures",
+            "(coming...) Added support for classes and inheritance",
+        ],
+    },
+    {
         title: "Health and Fitness Calculators",
-        projLink: "https://elordeiro.github.io/health-fitness-calculators/",
+        projLink: "https://elordeiro.github.io/Health-Fitness-Calculators/",
         logo: "/proj2.png",
         description: [
             "Designed and implemented a website with a collection of various types of calculators related to health and fitness.",

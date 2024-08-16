@@ -39,13 +39,31 @@ export default function Page({ params }: { params: { project: string } }) {
             projectData.title = "Redis Server";
             projectData.showcase = "/redis.png";
             projectData.readme =
-                "https://raw.githubusercontent.com/elordeiro/building-my-own-redis/main/README.md";
+                "https://raw.githubusercontent.com/elordeiro/Redis-Server/main/README.md";
             break;
         case "http":
             projectData.title = "HTTP Server";
             projectData.showcase = "/http.png";
             projectData.readme =
-                "https://raw.githubusercontent.com/elordeiro/HTTP-Server/master/README.md";
+                "https://raw.githubusercontent.com/elordeiro/HTTP-Server/main/README.md";
+            break;
+        case "sqlite":
+            projectData.title = "SQLite Database Reader";
+            projectData.showcase = "/sqlite.png";
+            projectData.readme =
+                "https://raw.githubusercontent.com/elordeiro/SQLite-DBReader/main/README.md";
+            break;
+        case "grep":
+            projectData.title = "Grep-like Program";
+            projectData.showcase = "/grep.png";
+            projectData.readme =
+                "https://raw.githubusercontent.com/elordeiro/Grep/main/README.md";
+            break;
+        case "golox":
+            projectData.title = "Lox Interpreter";
+            projectData.showcase = "/golox.png";
+            projectData.readme =
+                "https://raw.githubusercontent.com/elordeiro/GoLox/main/README.md";
             break;
     }
     return (

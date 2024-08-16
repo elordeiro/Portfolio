@@ -21,7 +21,7 @@ export default function Project({
                         alt=""
                         className="object-contain shadow-sm shadow-amber-400 rounded-md h-fit"
                     />
-                    <h1 className="text-amber-400 self-end pl-5 text-lg md:text-4xl text-center w-full pr-[55px]">
+                    <h1 className="text-amber-400 self-end pl-5 text-lg md:text-4xl text-center w-full pr-[70px]">
                         {title}
                     </h1>
                 </div>
