@@ -15,7 +15,7 @@ export const Projects = [
             "Implemented transactional support to ensure atomic operations}",
         ],
         tech: "Go, Redis, Server-side programming",
-        github: "https://github.com/elordeiro/building-my-own-redis",
+        github: "https://github.com/elordeiro/redis-server",
     },
     {
         title: "Battleship Multiplayer Game",
@@ -41,7 +41,7 @@ export const Projects = [
             "Deployed the application on Vercel and set up continuous deployment and continuous integration.",
         ],
         tech: "React, Tailwind, TypeScript, Next.js, CD/CI",
-        github: "https://github.com/elordeiro/mortgage-calculator",
+        github: "https://github.com/elordeiro/kw-internship",
     },
     {
         title: "SQLite Database Reader",
@@ -55,7 +55,7 @@ export const Projects = [
             "Added support for reading using index pages for faster access",
         ],
         tech: "Go, SQLite, Databases, BTrees, CLI",
-        github: "https://github.com/elordeiro/SQLite-DBReader",
+        github: "https://github.com/elordeiro/sqlmini",
     },
     {
         title: "HTTP Server",
@@ -68,7 +68,7 @@ export const Projects = [
             "Added support for static files and directory listing",
         ],
         tech: "Go, HTTP, Server-side programming",
-        github: "https://github.com/elordeiro/HTTP-Server",
+        github: "https://github.com/elordeiro/http-server",
     },
     {
         title: "Grep",
@@ -81,7 +81,7 @@ export const Projects = [
             "Implemented backtracking for regular expression matching to handle backreferences",
         ],
         tech: "Go, Regular expressions, CLI",
-        github: "https://github.com/elordeiro/Grep",
+        github: "https://github.com/elordeiro/grep",
     },
     {
         title: "GoLox",
@@ -95,11 +95,11 @@ export const Projects = [
             "(coming...) Added support for classes and inheritance",
         ],
         tech: "Go, Interpreters, Compilers, Lox",
-        github: "https://github.com/elordeiro/GoLox",
+        github: "https://github.com/elordeiro/golox",
     },
     {
         title: "Health and Fitness Calculators",
-        projLink: "https://elordeiro.github.io/Health-Fitness-Calculators/",
+        projLink: "https://elordeiro.github.io/hfcalcs/",
         logo: "/proj2.png",
         description: [
             "Designed and implemented a website with a collection of various types of calculators related to health and fitness.",
@@ -107,7 +107,7 @@ export const Projects = [
             "Compiled over 10 different types of the most used fitness calculators that have proved very useful in helping people achieve their fitness goals.",
         ],
         tech: "CSS, HTML, JavaScript, Web Development",
-        github: "https://github.com/elordeiro/health-fitness-calculators",
+        github: "https://github.com/elordeiro/hfcalcs",
     },
     {
         title: " UMass Boston C.S. Program Chart",
@@ -120,7 +120,7 @@ export const Projects = [
             "Published the webpage on the Computer Science department's website contributing to improved accessibility for all students.",
         ],
         tech: "Mermaid, HTML, JavaScript Web Development",
-        github: "https://github.com/elordeiro/UMassCSPreReqChar",
+        github: "https://github.com/elordeiro/UMassCSPreReqChart",
     },
     {
         title: "Data Structures & Algorithms",
@@ -132,7 +132,7 @@ export const Projects = [
             "Wrote a collection of test cases to ensure the correctness and efficiency of the implementations.",
         ],
         tech: "C, DSA, CS fundamentals, VSCode",
-        github: "https://github.com/elordeiro/DataStructures_C",
+        github: "https://github.com/elordeiro/c-dsa",
     },
     {
         title: "File Compression Program",
@@ -144,7 +144,7 @@ export const Projects = [
             "Tested the program with a target of 0 memory leaks, showcasing skill in debugging and testing.",
         ],
         tech: "C, Practical application of data structures",
-        github: "https://github.com/elordeiro/HuffmanCompression",
+        github: "https://github.com/elordeiro/huffman",
     },
     {
         title: "Tic Tac Toe with Minimax Algorithm",
@@ -180,7 +180,7 @@ export const Projects = [
             "Published the website on GitHub.",
         ],
         tech: "React, Next.js, Tailwind, TypeScript, Vercel, CD/CI",
-        github: "https://github.com/elordeiro/portfolio-react",
+        github: "https://github.com/elordeiro/portfolio",
     },
     // {
     //     title: "",
